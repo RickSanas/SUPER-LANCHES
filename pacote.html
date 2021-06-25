@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Super Lanches</title>
+	
+	<link rel="stylesheet" type="text/css" href="ESTILO/pacote.css"> 
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<meta charset="utf-8">
+
+	<link rel="shortcut icon " type="image-x/png" href="IMAGENS/mini-icon.ico">
+	<meta charset="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">	
+
+</head>
+<body>
+<!-- |INICIO DO CABEÇALHO| --> 
+
+	<div style="width: 100%; height: auto;position: static;"><div class="container-header">
+		<a href="INDEX.html"><div class="logo"></div></a>
+
+		<section class="ferramentas">
+			
+			<div class="pesquisa">	
+				<div class="barra-pesquisa">
+					<input type="text" name="" placeholder="O que vai querer hoje ?">
+				</div><!-- barra-pesquisa -->
+
+				<div class="lupa-submit"></div><!-- lupa-submit -->
+			</div><!-- pesquisa -->
+
+			<div class="compras">
+				<div class="contador" style="display: flex; justify-content:center;text-align: center;"> <p id="expo" style="font-size: 13px;"></p></div>
+			</div>
+			
+		</section><!-- ferramentas -->		
+		</div> <!-- container-header -->
+	</div>
+
+
+
+	<section class="categ">
+		<div class="container-categ">
+			<div class="single-categ-1">
+				<div class="icone-categ-1"></div>
+				<div><h1 style="margin: 0 20px;"><a href="Lanche.html" style="text-decoration: none;color: white;">LANCHES</a></h1></div>
+			</div>
+			
+			<div class="single-categ-2">
+				<div class="icone-categ-2"></div>
+				<h1 style="margin: 0 20px;"><a href="Bebidas.html" style="text-decoration: none;color: white;">BEBIDAS</a></h1>
+			</div>
+
+			<div class="single-categ-3">
+				<div class="icone-categ-3"></div>
+				<h1 style="margin: 0 20px;"><a href="Bebidas.html" style="text-decoration: none;color: white;">BEBIDAS</a></h1>
+			</div>
+		</div><!-- container-categ -->
+	</section>
+
+	<div class="title-sacola">
+			<h1>Suas compras</h1>
+		</div>
+
+	<nav class="produtos-adicionados">
+		
+		<div class="produto-add1" id="add-1">
+			<div class="img-lanche-add"></div>
+				
+			<div class="infor-adicionado">
+				<h1 style="margin-top:25px;"> SANDUÍCHE SAUDÁVEL </h1>
+				<h2 style="margin:5px 0 25px 0;">R$ 10,00</h2>
+				<div class="submit-remove" id="remove-pac1"><p>REMOVER</p></div>
+			</div><!-- infor-adicionado -->	
+		</div>
+
+		<div class="produto-add2" id="add-2">
+			<div class="img-lanche-add2"></div>
+				
+			<div class="infor-adicionado">
+				<h1 style="margin-top:25px;"> SUCO </h1>
+				<h2 style="margin:5px 0 25px 0;">R$ 2,00 (1 L)</h2>
+				<div class="submit-remove" id="remove-pac2"><p>REMOVER</p></div>
+			</div><!-- infor-adicionado -->	
+		</div>
+
+		<div class="butom-finish" id="cabou"> FINALIZAR COMPRA</div>
+	</nav><!-- produtos-adicionados -->
+
+
+<script type="text/javascript" src="JS/functions2.js"></script>
+
+
+</body>
+</html>
+
